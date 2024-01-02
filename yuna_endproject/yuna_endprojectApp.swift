@@ -11,7 +11,7 @@ import SwiftUI
 struct yuna_endprojectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Copver()
         }
     }
 }

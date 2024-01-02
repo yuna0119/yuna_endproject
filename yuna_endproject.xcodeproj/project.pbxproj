@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B6F1D782B29B3C7009831CA /* YoutubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F1D772B29B3C7009831CA /* YoutubeView.swift */; };
+		5B6F1D7A2B29B3F2009831CA /* Youtubeapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F1D792B29B3F2009831CA /* Youtubeapi.swift */; };
+		5B6F1D7C2B29B455009831CA /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F1D7B2B29B455009831CA /* SafariView.swift */; };
+		5B6F1D7E2B29B53A009831CA /* SpotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F1D7D2B29B53A009831CA /* SpotifyView.swift */; };
+		5B7EF71F2B2B005A00FF5234 /* Spotifyapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EF71E2B2B005A00FF5234 /* Spotifyapi.swift */; };
+		5B7EF7212B2B006800FF5234 /* SpotifyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7EF7202B2B006800FF5234 /* SpotifyData.swift */; };
 		5B900ED32B25999B00D6A0C1 /* yuna_endprojectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900ED22B25999B00D6A0C1 /* yuna_endprojectApp.swift */; };
-		5B900ED52B25999B00D6A0C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900ED42B25999B00D6A0C1 /* ContentView.swift */; };
 		5B900ED72B25999C00D6A0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B900ED62B25999C00D6A0C1 /* Assets.xcassets */; };
 		5B900EDA2B25999C00D6A0C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B900ED92B25999C00D6A0C1 /* Preview Assets.xcassets */; };
 		5B900EE42B25999C00D6A0C1 /* yuna_endprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900EE32B25999C00D6A0C1 /* yuna_endprojectTests.swift */; };
 		5B900EEE2B25999C00D6A0C1 /* yuna_endprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900EED2B25999C00D6A0C1 /* yuna_endprojectUITests.swift */; };
 		5B900EF02B25999C00D6A0C1 /* yuna_endprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900EEF2B25999C00D6A0C1 /* yuna_endprojectUITestsLaunchTests.swift */; };
+		5B900EFD2B259AE400D6A0C1 /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900EFC2B259AE400D6A0C1 /* character.swift */; };
+		5B900F012B25A10000D6A0C1 /* Copver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F002B25A10000D6A0C1 /* Copver.swift */; };
+		5B900F032B25A12500D6A0C1 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F022B25A12500D6A0C1 /* WebView.swift */; };
+		5B900F072B25A1A700D6A0C1 /* web1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F062B25A1A700D6A0C1 /* web1.swift */; };
+		5B900F092B25A1AF00D6A0C1 /* web2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F082B25A1AF00D6A0C1 /* web2.swift */; };
+		5B900F0B2B25A1B700D6A0C1 /* web3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F0A2B25A1B700D6A0C1 /* web3.swift */; };
+		5B900F0D2B25A1BE00D6A0C1 /* web4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F0C2B25A1BE00D6A0C1 /* web4.swift */; };
+		5B900F0F2B25A29500D6A0C1 /* WebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F0E2B25A29500D6A0C1 /* WebsiteView.swift */; };
+		5B900F132B25A7E200D6A0C1 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F122B25A7E200D6A0C1 /* ImagePickerController.swift */; };
+		5B900F1B2B25A9CB00D6A0C1 /* DATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F1A2B25A9CB00D6A0C1 /* DATA.swift */; };
+		5B900F1D2B25A9DF00D6A0C1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F1C2B25A9DF00D6A0C1 /* File.swift */; };
+		5B900F1F2B25A9F700D6A0C1 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F1E2B25A9F700D6A0C1 /* URLImage.swift */; };
+		5B900F212B25AA1900D6A0C1 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B900F202B25AA1900D6A0C1 /* Youtube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B6F1D772B29B3C7009831CA /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YoutubeView.swift; path = ../YoutubeView.swift; sourceTree = "<group>"; };
+		5B6F1D792B29B3F2009831CA /* Youtubeapi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtubeapi.swift; sourceTree = "<group>"; };
+		5B6F1D7B2B29B455009831CA /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		5B6F1D7D2B29B53A009831CA /* SpotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyView.swift; sourceTree = "<group>"; };
+		5B7EF71E2B2B005A00FF5234 /* Spotifyapi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotifyapi.swift; sourceTree = "<group>"; };
+		5B7EF7202B2B006800FF5234 /* SpotifyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyData.swift; sourceTree = "<group>"; };
 		5B900ECF2B25999B00D6A0C1 /* yuna_endproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yuna_endproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B900ED22B25999B00D6A0C1 /* yuna_endprojectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yuna_endprojectApp.swift; sourceTree = "<group>"; };
-		5B900ED42B25999B00D6A0C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B900ED62B25999C00D6A0C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B900ED92B25999C00D6A0C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B900EDF2B25999C00D6A0C1 /* yuna_endprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yuna_endprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +67,19 @@
 		5B900EE92B25999C00D6A0C1 /* yuna_endprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yuna_endprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B900EED2B25999C00D6A0C1 /* yuna_endprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yuna_endprojectUITests.swift; sourceTree = "<group>"; };
 		5B900EEF2B25999C00D6A0C1 /* yuna_endprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yuna_endprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B900EFC2B259AE400D6A0C1 /* character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		5B900F002B25A10000D6A0C1 /* Copver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copver.swift; sourceTree = "<group>"; };
+		5B900F022B25A12500D6A0C1 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		5B900F062B25A1A700D6A0C1 /* web1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web1.swift; sourceTree = "<group>"; };
+		5B900F082B25A1AF00D6A0C1 /* web2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web2.swift; sourceTree = "<group>"; };
+		5B900F0A2B25A1B700D6A0C1 /* web3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web3.swift; sourceTree = "<group>"; };
+		5B900F0C2B25A1BE00D6A0C1 /* web4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = web4.swift; sourceTree = "<group>"; };
+		5B900F0E2B25A29500D6A0C1 /* WebsiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteView.swift; sourceTree = "<group>"; };
+		5B900F122B25A7E200D6A0C1 /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		5B900F1A2B25A9CB00D6A0C1 /* DATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATA.swift; sourceTree = "<group>"; };
+		5B900F1C2B25A9DF00D6A0C1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5B900F1E2B25A9F700D6A0C1 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		5B900F202B25AA1900D6A0C1 /* Youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +110,9 @@
 		5B900EC62B25999B00D6A0C1 = {
 			isa = PBXGroup;
 			children = (
+				5B900F1E2B25A9F700D6A0C1 /* URLImage.swift */,
+				5B900F1C2B25A9DF00D6A0C1 /* File.swift */,
+				5B900F1A2B25A9CB00D6A0C1 /* DATA.swift */,
 				5B900ED12B25999B00D6A0C1 /* yuna_endproject */,
 				5B900EE22B25999C00D6A0C1 /* yuna_endprojectTests */,
 				5B900EEC2B25999C00D6A0C1 /* yuna_endprojectUITests */,
@@ -94,8 +133,23 @@
 		5B900ED12B25999B00D6A0C1 /* yuna_endproject */ = {
 			isa = PBXGroup;
 			children = (
+				5B900F202B25AA1900D6A0C1 /* Youtube.swift */,
+				5B6F1D772B29B3C7009831CA /* YoutubeView.swift */,
+				5B6F1D792B29B3F2009831CA /* Youtubeapi.swift */,
+				5B6F1D7B2B29B455009831CA /* SafariView.swift */,
+				5B6F1D7D2B29B53A009831CA /* SpotifyView.swift */,
+				5B7EF7202B2B006800FF5234 /* SpotifyData.swift */,
+				5B7EF71E2B2B005A00FF5234 /* Spotifyapi.swift */,
+				5B900F002B25A10000D6A0C1 /* Copver.swift */,
+				5B900F022B25A12500D6A0C1 /* WebView.swift */,
+				5B900F062B25A1A700D6A0C1 /* web1.swift */,
+				5B900F082B25A1AF00D6A0C1 /* web2.swift */,
+				5B900F0A2B25A1B700D6A0C1 /* web3.swift */,
+				5B900F0C2B25A1BE00D6A0C1 /* web4.swift */,
+				5B900F0E2B25A29500D6A0C1 /* WebsiteView.swift */,
+				5B900F122B25A7E200D6A0C1 /* ImagePickerController.swift */,
+				5B900EFC2B259AE400D6A0C1 /* character.swift */,
 				5B900ED22B25999B00D6A0C1 /* yuna_endprojectApp.swift */,
-				5B900ED42B25999B00D6A0C1 /* ContentView.swift */,
 				5B900ED62B25999C00D6A0C1 /* Assets.xcassets */,
 				5B900ED82B25999C00D6A0C1 /* Preview Content */,
 			);
@@ -257,8 +311,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B900ED52B25999B00D6A0C1 /* ContentView.swift in Sources */,
+				5B900EFD2B259AE400D6A0C1 /* character.swift in Sources */,
+				5B900F012B25A10000D6A0C1 /* Copver.swift in Sources */,
+				5B900F0D2B25A1BE00D6A0C1 /* web4.swift in Sources */,
+				5B6F1D7C2B29B455009831CA /* SafariView.swift in Sources */,
+				5B900F1D2B25A9DF00D6A0C1 /* File.swift in Sources */,
+				5B900F032B25A12500D6A0C1 /* WebView.swift in Sources */,
+				5B900F132B25A7E200D6A0C1 /* ImagePickerController.swift in Sources */,
+				5B900F072B25A1A700D6A0C1 /* web1.swift in Sources */,
 				5B900ED32B25999B00D6A0C1 /* yuna_endprojectApp.swift in Sources */,
+				5B900F092B25A1AF00D6A0C1 /* web2.swift in Sources */,
+				5B7EF7212B2B006800FF5234 /* SpotifyData.swift in Sources */,
+				5B900F1B2B25A9CB00D6A0C1 /* DATA.swift in Sources */,
+				5B6F1D7E2B29B53A009831CA /* SpotifyView.swift in Sources */,
+				5B900F0B2B25A1B700D6A0C1 /* web3.swift in Sources */,
+				5B900F0F2B25A29500D6A0C1 /* WebsiteView.swift in Sources */,
+				5B900F212B25AA1900D6A0C1 /* Youtube.swift in Sources */,
+				5B6F1D782B29B3C7009831CA /* YoutubeView.swift in Sources */,
+				5B7EF71F2B2B005A00FF5234 /* Spotifyapi.swift in Sources */,
+				5B6F1D7A2B29B3F2009831CA /* Youtubeapi.swift in Sources */,
+				5B900F1F2B25A9F700D6A0C1 /* URLImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
